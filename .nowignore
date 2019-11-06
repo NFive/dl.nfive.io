@@ -2,3 +2,5 @@ node_modules/
 .editorconfig
 .gitattributes
 .nowignore
+LICENSE
+README.md
