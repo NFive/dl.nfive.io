@@ -18,6 +18,6 @@
     { "src": "/nfive.zip", "methods": ["GET"], "dest": "/nfive.js" },
     { "src": "/nfpm.exe", "methods": ["GET"], "dest": "/nfpm.js" },
     { "src": "/", "methods": ["GET"], "status": 301, "headers": { "Location": "https://nfive.io/" } },
-    { "src": "/.+", "methods": ["GET"], "status": 404 }
+    { "src": "/.+", "methods": ["GET"], "dest": "/404.js" }
   ]
 }
