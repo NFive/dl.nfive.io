@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "nfive-redirect",
+  "name": "dl.nfive.io",
   "scope": "nfive",
   "alias": "dl.nfive.io",
   "regions": ["all"],
