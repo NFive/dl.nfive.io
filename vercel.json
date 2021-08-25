@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "https://nfive.io/" }
+  ],
+  "rewrites": [
+    { "source": "/nfive.zip", "destination": "/api/nfive.js" },
+    { "source": "/nfpm.exe", "destination": "/api/nfpm.js" },
+    { "source": "/:match*", "destination": "/api/404.js" }
+  ]
+}
