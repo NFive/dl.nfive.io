@@ -6,6 +6,6 @@ module.exports = (owner, repo) => async (_, res) => {
     repo
   });
 
-  res.writeHead(302, { 'Location': release.assets[0].browser_download_url });
+  res.writeHead(302, { 'Location': JSON.stringify(release) });
   res.end();
 };
